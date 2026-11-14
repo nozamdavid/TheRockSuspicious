@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "pack_format": 42,
+    "supported_formats": [42, 97],
+    "min_format": 42,
+    "max_format": 97,
+    "description": "TheRockSuspicious by noz.am\nGlowing suspicious sand and gravel. Java 1.21.2–26.3."
+  }
+}

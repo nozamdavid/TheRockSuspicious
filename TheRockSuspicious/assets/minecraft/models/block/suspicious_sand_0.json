@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "gui_light": "front",
+  "textures": {
+    "all": "minecraft:block/suspicious_sand_0",
+    "other": "minecraft:block/suspicious_sand_face_b",
+    "particle": "#all"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "shade": false,
+      "light_emission": 15,
+      "faces": {
+        "down":  {"uv": [0, 0, 16, 16], "texture": "#other", "cullface": "down"},
+        "up":    {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "up"},
+        "north": {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "north"},
+        "south": {"uv": [0, 0, 16, 16], "texture": "#other", "cullface": "south"},
+        "west":  {"uv": [0, 0, 16, 16], "texture": "#other", "cullface": "west"},
+        "east":  {"uv": [0, 0, 16, 16], "texture": "#all", "cullface": "east"}
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:block/suspicious_sand_0",
+  "textures": {"all": "minecraft:block/suspicious_sand_2"}
+}
